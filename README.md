@@ -10,6 +10,8 @@ Beware to change the font names (songti, heiti, kaiti, and Times New Roman) acco
 
 ## 'overleaf' branch is for overleaf building
 
+## 'overleaf-master-degree' branch is master degree template for overleaf building
+
 ## 'cover' has been merged to 'master'
 
 The project's author is TBC. Based on TBC's code, SceneryInMirror added the cover and reviewtable in branch 'cover'.
