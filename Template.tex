@@ -38,7 +38,9 @@
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\theequation}{\arabic{chapter}.\arabic{equation}} %公式标签 章.公式（均为阿拉伯数字）
 
-
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter} %X.X的图像编号
+\counterwithin{table}{chapter} %X.X的表格编号
 
 \usepackage{tocloft} %自定义目录，说明中没有明确规定，和WORD自动生成目录格式一致
 
