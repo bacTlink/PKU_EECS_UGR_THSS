@@ -266,7 +266,28 @@ Abstract
 %\addcontentsline{toc}{chapter}{目录}
 \clearpage
 
+\normalsize
+\linespread{1.5}\selectfont
+\fancypagestyle{plain}
+{
+	\fancyhf{}
+	\fancyhead[CO]{主要符号对照表}
+	\fancyhead[CE]{北京大学硕士学位论文}
+	\fancyfoot[CO,CE]{~\thepage~}
+	\renewcommand{\headrulewidth}{0.7pt}
+	\renewcommand{\footrulewidth}{0pt}
+}
+\fancyhf{}
+\fancyhead[CO]{主要符号对照表}
+\fancyhead[CE]{北京大学硕士学位论文}
+\fancyfoot[CO,CE]{~\thepage~}
+\renewcommand{\headrulewidth}{0.7pt}
+\renewcommand{\footrulewidth}{0pt}
 
+\chapter*{主要符号对照表}
+可有可无
+%\addcontentsline{toc}{chapter}{主要符号对照表}
+\clearpage
 
 \normalsize
 \linespread{1.5}\selectfont
@@ -286,11 +307,6 @@ Abstract
 \fancyfoot[CO,CE]{~\thepage~}
 \renewcommand{\headrulewidth}{0.7pt}
 \renewcommand{\footrulewidth}{0pt}
-
-\chapter*{主要符号对照表}
-可有可无
-%\addcontentsline{toc}{chapter}{主要符号对照表}
-\clearpage
 
 \setcounter{page}{1}
 \pagenumbering{arabic}
